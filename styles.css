@@ -1,20 +1,27 @@
 body {
   font-family: "Lucida Console", "Monospace";
+  background: url("background.jpg") no-repeat center center fixed;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-color: #cccccc;
 }
 
 h1 {
   font-style: italic;
   background-color: #4169E1;
+  width: 450px;
   margin: 10px;
   padding: 10px;
+  margin: auto;
 }
 
 h3 {
   color: Gray;
+  margin: auto;
 }
 
 h4 {
-  color: White;
+  color: Black;
 }
 
 div {
@@ -30,8 +37,17 @@ a {
   background-color: Silver;
   border: inset;
   border-radius:16px;
+  width: 400px;
+  margin: auto;
 }
 
 .result {
+  margin-left: 80px;
+  width: 200px;
   border-style: dashed;
+  background: white;
+}
+
+footer {
+  margin: auto;
 }
